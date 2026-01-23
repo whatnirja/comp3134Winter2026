@@ -1,0 +1,121 @@
+Name
+AMAZON.COM
+Registry Domain ID
+281209_DOMAIN_COM-VRSN
+Registered On
+1994-11-01T05:00:00Z
+Expires On
+2026-10-31T04:00:00Z
+Updated On
+2025-07-31T17:49:55Z
+Domain Status
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers
+NS1.AMZNDNS.CO.UK
+NS1.AMZNDNS.COM
+NS1.AMZNDNS.NET
+NS1.AMZNDNS.ORG
+NS2.AMZNDNS.CO.UK
+NS2.AMZNDNS.COM
+NS2.AMZNDNS.NET
+NS2.AMZNDNS.ORG
+
+
+
+
+Name
+GOOGLE.COM
+Registry Domain ID
+2138514_DOMAIN_COM-VRSN
+Registered On
+1997-09-15T04:00:00Z
+Expires On
+2028-09-14T04:00:00Z
+Updated On
+2019-09-09T15:39:04Z
+Domain Status
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers
+NS1.GOOGLE.COM
+NS2.GOOGLE.COM
+NS3.GOOGLE.COM
+NS4.GOOGLE.COM
+
+
+
+Name
+UBER.COM
+Registry Domain ID
+2564976_DOMAIN_COM-VRSN
+Registered On
+1995-07-14T04:00:00Z
+Expires On
+2028-07-13T04:00:00Z
+Updated On
+2021-12-15T22:42:22Z
+Domain Status
+client delete prohibited
+client transfer prohibited
+client update prohibited
+Name Servers
+DNS1.P04.NSONE.NET
+DNS2.P04.NSONE.NET
+DNS3.P04.NSONE.NET
+DNS4.P04.NSONE.NET
+EDNS126.ULTRADNS.BIZ
+EDNS126.ULTRADNS.COM
+EDNS126.ULTRADNS.NET
+EDNS126.ULTRADNS.ORG
+
+
+
+Name
+ARITIZIA.COM
+Registry Domain ID
+93465836_DOMAIN_COM-VRSN
+Registered On
+2002-12-27T20:54:30Z
+Expires On
+2026-12-27T20:54:30Z
+Updated On
+2025-12-21T01:02:49Z
+Domain Status
+client transfer prohibited
+Name Servers
+ANAN.NS.GIANTPANDA.COM
+PO.NS.GIANTPANDA.COM
+
+
+
+Name
+APPLE.COM
+Registry Domain ID
+1225976_DOMAIN_COM-VRSN
+Registered On
+1987-02-19T05:00:00Z
+Expires On
+2026-02-20T05:00:00Z
+Updated On
+2025-01-21T23:06:01Z
+Domain Status
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers
+A.NS.APPLE.COM
+B.NS.APPLE.COM
+C.NS.APPLE.COM
+D.NS.APPLE.COM

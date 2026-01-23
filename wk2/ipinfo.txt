@@ -1,0 +1,44 @@
+search: nike.com
+IP:	18.164.116.39
+ Country:	 United States of America
+ State:	New York
+ City:	New York City
+ Latitude:	40.7131
+ Longitude:	-74.0060
+ ISP:	Amazon.com Inc.
+
+search: cibc.com
+IP:	23.33.40.141
+ Country:	 United States of America
+ State:	New York
+ City:	New York City
+ Latitude:	40.7131
+ Longitude:	-74.0060
+ ISP:	Akamai Technologies Inc.
+
+search: adidas.com
+IP:	87.237.217.231
+ Country:	 Germany
+ State:	Bayern
+ City:	Herzogenaurach
+ Latitude:	49.5680
+ Longitude:	10.8854
+ ISP:	Adidas AG
+
+search: footlocker.com
+IP:	151.101.2.132
+ Country:	 United States of America
+ State:	California
+ City:	San Francisco
+ Latitude:	37.7749
+ Longitude:	-122.4194
+ ISP:	Fastly Inc.
+
+search: zara.com
+IP:	23.73.207.171
+ Country:	 United States of America
+ State:	Virginia
+ City:	Ashburn
+ Latitude:	39.0394
+ Longitude:	-77.4918
+ ISP:	Akamai Technologies Inc.

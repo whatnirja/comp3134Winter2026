@@ -1,0 +1,4 @@
+root@ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01:~# traceroute 143.110.156.170
+traceroute to 143.110.156.170 (143.110.156.170), 30 hops max, 60 byte packets
+ 1  ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01 (143.110.156.170)  0.016 ms  0.003 ms  0.003 ms
+root@ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01:~# 

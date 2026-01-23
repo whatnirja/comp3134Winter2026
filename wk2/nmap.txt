@@ -1,0 +1,59 @@
+root@ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01:~# nmap scanme.nmap.org
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 21:22 UTC
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.0012s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 993 closed tcp ports (reset)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    filtered smtp
+80/tcp    open     http
+465/tcp   filtered smtps
+587/tcp   filtered submission
+9929/tcp  open     nping-echo
+31337/tcp open     Elite
+
+Nmap done: 1 IP address (1 host up) scanned in 1.35 seconds
+root@ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01:~# 
+
+
+
+root@ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01:~# nmap -p 22 143.110.156.170
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 21:22 UTC
+Nmap scan report for ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01 (143.110.156.170)
+Host is up (0.000038s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.06 seconds
+root@ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01:~# 
+
+
+
+root@ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01:~# nmap -p 20-100 143.110.156.170
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 21:23 UTC
+Nmap scan report for ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01 (143.110.156.170)
+Host is up (0.0000030s latency).
+Not shown: 80 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.06 seconds
+root@ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01:~# 
+
+
+root@ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01:~# nmap -F google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 21:23 UTC
+Nmap scan report for google.com (142.250.189.206)
+Host is up (0.00069s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:4005:811::200e
+rDNS record for 142.250.189.206: sfo03s25-in-f14.1e100.net
+Not shown: 97 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.89 seconds
+root@ubuntu-s-2vcpu-4gb-120gb-intel-sfo3-01:~# 
+
