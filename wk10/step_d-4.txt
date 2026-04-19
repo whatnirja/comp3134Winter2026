@@ -1,0 +1,9 @@
+What I see on the browser (the issue):
+The page displays a list of directory contents from the server when using the input "../../". Instead of restricting access, the application allows navigation outside the intended directory. It shows folder names such as ".", "..", and "html".
+
+This indicates a Directory Traversal vulnerability where user input is not properly validated, allowing access to parent directories on the server.
+
+What sensitive information is given by this page:
+The page reveals the internal directory structure of the server. Specifically, it shows the presence of a folder named "html", which indicates where web files are stored.
+
+This information is sensitive because an attacker can use it to understand the server structure and attempt to access restricted files such as configuration files, system files, or application data.

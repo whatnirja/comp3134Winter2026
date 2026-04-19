@@ -1,0 +1,9 @@
+What I see on the browser (the issue):
+When I enter the value "hello" in the URL parameter, the page displays warning messages indicating that a file was not found. The warnings include full file paths on the server.
+
+This shows that the application does not properly handle invalid input and exposes internal error messages to the user. Instead of a user-friendly error, it reveals backend details.
+
+What sensitive information is given by this page:
+The warning messages reveal the full directory structure of the server, including file paths such as where the PHP file is located.
+
+This information is sensitive because it allows an attacker to understand how the server is organized. With this knowledge, an attacker can attempt directory traversal or target specific files (e.g., configuration files, system files) to exploit the application further.

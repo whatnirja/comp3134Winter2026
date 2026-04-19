@@ -1,0 +1,9 @@
+What I see on the browser (the issue):
+The page again displays directory contents, even when the traversal sequence is URL-encoded as "%2e%2e%2f". The application fails to properly sanitize or decode user input securely, allowing the same directory traversal attack using encoded characters.
+
+The output shows ".", "..", "index.html", and "wk10", confirming that access to restricted directories is still possible.
+
+What sensitive information is given by this page:
+The page exposes additional internal files and directories such as "index.html" and "wk10". This reveals more details about the application structure and stored content.
+
+This is sensitive because attackers can map the directory structure and potentially locate important files, leading to further exploitation such as accessing confidential data or modifying application files.

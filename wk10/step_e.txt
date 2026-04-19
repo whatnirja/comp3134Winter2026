@@ -1,0 +1,3 @@
+I will mitigate the first issue by using basename() on the user input. This prevents users from navigating to directories before the html directory by removing path traversal input such as ../../.
+
+I will mitigate the second issue by using file_exists() before scandir(). This ensures the script does not try to access folders that do not exist and prevents warning messages from being shown.
