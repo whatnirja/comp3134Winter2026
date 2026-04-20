@@ -1,0 +1,3 @@
+To mitigate the problem, I replaced all HTML comments with PHP comments.
+HTML comments can be viewed in the browser source code, which may expose sensitive information.
+PHP comments are processed on the server and are not sent to the browser, so users cannot see them.

@@ -1,0 +1,9 @@
+strip_tags() removes HTML and script tags from the user input before displaying it.
+For example, if the input is <script>alert('hello')</script>, the tags are removed and only alert('hello') may remain as plain text.
+
+htmlentities() does not remove the tags. Instead, it converts special HTML characters into safe entity values.
+For example, < becomes &lt; and > becomes &gt;. This allows the full user input to be shown on the page without being executed by the browser.
+
+Difference:
+strip_tags() removes markup from the input.
+htmlentities() preserves the input but displays it safely as text.

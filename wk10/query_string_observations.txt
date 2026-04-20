@@ -1,0 +1,13 @@
+1) Navigate to the form and type a valid English word. 
+When I typed a valid English word such as "happy" into the Dictionary.com search form, the site successfully displayed the definition page for that word. The word appeared in the URL after /browse/, showing that the application passed the input through the URL and then loaded the matching result page.
+
+2) Invalid word in URL
+When I entered an invalid word like "fwfsfe" directly in the URL after /browse/, the website did not crash or display any error code. Instead, it showed a message saying "No results found" along with suggestions like popular searches. This indicates the application safely handles unexpected or invalid input.
+
+
+
+3)<script>alert(%27hello%27)</script> in form
+When I entered <script>alert(%27hello%27)</script> in the form, the script was not executed. Instead, the website blocked access and displayed a message saying "Sorry, you have been blocked." This shows the site has strong security mechanisms in place (such as input filtering or a web application firewall) to prevent malicious input like script injection.
+
+4) <script>alert(%27hello%27)</script> in URl
+When I placed <script>alert(%27hello%27)</script> in the URL parameter after term=, the script was not executed. No popup appeared, and the site safely handled the value. This suggests the production site filters, sanitizes, or encodes user input before displaying or processing it.
