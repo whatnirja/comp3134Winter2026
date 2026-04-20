@@ -1,0 +1,12 @@
+The issue demonstrated here is Stored Cross-Site Scripting (Stored XSS).
+
+The application retrieves content from a file and displays it directly in the browser without any form of sanitization or validation. Because of this, any JavaScript code stored in the file will be executed automatically when the page loads.
+
+In this case, the script redirects the user to another page (/directory_traversal_part1.php), showing how malicious code can be embedded and triggered from stored data.
+
+Issues identified:
+1. Stored data is treated as safe and trusted.
+2. Malicious scripts can run in the user's browser.
+3. This can lead to unauthorized actions such as redirects, data theft, or manipulation of the webpage.
+
+To prevent this, the application should encode or sanitize output before displaying it, for example by using htmlspecialchars() in PHP.

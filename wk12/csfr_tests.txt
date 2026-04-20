@@ -1,0 +1,5 @@
+Using csfr_form.php resulted in a successful authentication since the confirmation value sent in the request matched the session variable. This confirms that the request is trusted.
+
+When attempting the same action through csfr.html, the request was rejected because the required confirmation token was either missing or incorrect.
+
+This shows that implementing a CSRF token helps secure the application by verifying requests and preventing unauthorized form submissions from outside sources.
